@@ -1,0 +1,47 @@
+.dark-mode {
+  background-color: #202020; /* Dark background */
+  color: white;
+
+  /* Light text */
+
+  .sidebar {
+    background-color: #333;
+    i {
+      color: white;
+    }
+    span {
+      color: white; /* Dark header/footer */
+    }
+  }
+
+  .modal,
+  .singleNoteContainer {
+    background-color: #555;
+    color: white;
+  }
+  .notesInput,
+  .notes {
+    border: 1px solid white;
+  }
+  button {
+    background-color: #555; /* Dark button */
+    color: #ddd; /* Light text on buttons */
+  }
+  input,
+  select,
+  textarea {
+    background-color: #333;
+    color: white;
+  }
+}
+
+.light-mode {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+
+  header,
+  footer {
+    background-color: #f1f1f1;
+  }
+}
