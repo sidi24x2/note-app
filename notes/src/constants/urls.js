@@ -1,4 +1,4 @@
-const rootURL = '/api';
+const rootURL = 'https://note-app-backend-x3r3.onrender.com/api';
 const loginURL = rootURL + '/users/login';
 const registerURL = rootURL + '/users/register';
 const notesURL = rootURL + '/notes';
